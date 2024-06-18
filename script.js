@@ -6,6 +6,7 @@ document.querySelector('.busca').addEventListener('submit', async (event) => {
     
     if(input !== '') {
         clearInfo();
+        // showwarning mensamge de aviso
         showWarning('Carregando...');
 
         // encodeURI converte os espaços em caracteres especiais
