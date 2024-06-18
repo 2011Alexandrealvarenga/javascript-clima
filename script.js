@@ -40,6 +40,7 @@ function showInfo(obj) {
     document.querySelector('.tempInfo').innerHTML = `${obj.temp} <sup>ºC</sup>`;
     document.querySelector('.ventoInfo').innerHTML = `${obj.windSpeed} <span>km/h</span>`;
 
+    // troca o atributo url
     document.querySelector('.temp img').setAttribute('src', 
     `http://openweathermap.org/img/wn/${obj.tempIcon}@2x.png`);
     
