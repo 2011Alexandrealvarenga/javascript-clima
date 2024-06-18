@@ -1,4 +1,5 @@
 document.querySelector('.busca').addEventListener('submit', async (event) => {
+    // não deixa atualizar a pagina
     event.preventDefault();
 
     let input = document.querySelector('#searchInput').value;
